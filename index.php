@@ -58,7 +58,7 @@
               <br>
               Director:<br>
               <input type="text" id="DirectorDelete" readonly/>
-              <br>
+              <br/>
               Cartel:<br>
               <img src=" " id="cartelDelete" />
               <br><br>
