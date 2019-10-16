@@ -56,7 +56,7 @@
               Anio:<br>
               <input type="text" id="AnioDelete" readonly/>
               <br>
-              Director:<br>
+              Director:<br/>
               <input type="text" id="DirectorDelete" readonly/>
               <br/>
               Cartel:<br>
