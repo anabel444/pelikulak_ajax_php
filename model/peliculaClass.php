@@ -1,11 +1,11 @@
 <?php
 
 class peliculaClass {
-    protected $idPelicula;
-    protected $TituloPelicula;
-    protected $Anio;
-    protected $Director;
-    protected $cartel;
+    public $idPelicula;
+    public $TituloPelicula;
+    public $Anio;
+    public $Director;
+    public $cartel;
     
     
     public function getIdPelicula() {

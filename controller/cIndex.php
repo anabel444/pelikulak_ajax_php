@@ -3,10 +3,13 @@
 include_once ("../model/peliculaModel.php");
 
 $pelicula= new peliculaModel();
-$pelicula->setList(); 
 
-$listaPeliculasJson=$pelicula->getListJsonString();
+$response=array();
 
-echo $listaPeliculasJson;
+$response['list']=$pelicula->setList();
+$response['error']="no error"; 
+
+echo json_encode($response); // pasar de php a json
 
 unset ($pelicula);
+unset ($list);
